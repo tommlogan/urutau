@@ -1,48 +1,6 @@
-<!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Adapting Cities</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href="../img/favicon_kakapo.ico">
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script>
-			$(document).ready(function(){
-			  // Add smooth scrolling to all links
-			  $("a").on('click', function(event) {
-
-			    // Make sure this.hash has a value before overriding default behavior
-			    if (this.hash !== "") {
-			      // Prevent default anchor click behavior
-			      event.preventDefault();
-
-			      // Store hash
-			      var hash = this.hash;
-
-			      // Using jQuery's animate() method to add smooth page scroll
-			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-			      $('html, body').animate({
-			        scrollTop: $(hash).offset().top
-			      }, 800, function(){
-
-			        // Add hash (#) to URL when done scrolling (default click behavior)
-			        window.location.hash = hash;
-			      });
-			    } // End if
-			  });
-			});
-			</script>
-
-	</head>
+---
+layout: default
+---
 	<body class="left-sidebar">
 		<div id="page-wrapper">
 
@@ -132,90 +90,8 @@
 
 				<!-- Two -->
 					<!-- <section class="wrapper style1 container special"> -->
-						<div class="row">
-							<div class="4u 12u(narrower)">
-
-								<section>
-									<header>
-										<q><h3>Our project</h3></q>
-									</header>
-									<q>The aim of our project was to develop an interactive web-based visualization to aid urban decision-makers and planners regarding how to allocate social service funding within a city.
-									</q>
-									<footer>
-										<q><ul class="buttons">
-											<li><a href="../hackathon.html" class="button small">Interactive Tool</a></li>
-										</ul></q>
-									</footer>
-								</section>
-
-							</div>
-							<div class="4u 12u(narrower)">
-
-								<section>
-									<header>
-										<q><h3>Our recent publication</h3></q>
-									</header>
-									<q>Check out our publication in <i>Environment and Planning B: Urban Analytics and City Science</i></q>
-									<footer>
-										<q><ul class="buttons">
-											<li><a href='../city_access.html' class="button small">HERE!</a></li>
-										</ul></q>
-									</footer>
-								</section>
-
-							</div>
-							<div class="4u 12u(narrower)">
-
-								<section>
-									<header>
-										<q><h3>Our partners: Center for Spatial Data Science</h3></q>
-									</header>
-									<q>Huge thanks to Julia Koschinsky and Logan Noel at the University of Chicago's Center for Spatial Data Science. Also to Nicole Marwell at the University of Chicago's School of Social Service Administration.</q>
-									<footer>
-										<q><ul class="buttons">
-											<li><a href="https://spatial.uchicago.edu/" class="button small">Learn More</a></li>
-										</ul></q>
-									</footer>
-								</section>
-
-							</div>
-						</div>
+						{% include 2017-10-13-seattle.html %}
+						{% include disqus.html %}
 					</section>
 
 			</article>
-		<section class="wrapper style1 container special">
-		</section>
-			<!-- CTA -->
-				<section id="cta">
-				</section>
-			<!-- Footer -->
-				<footer id="footer">
-
-					<ul class="icons">
-						<!-- <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li> -->
-						<!-- <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li> -->
-						<li><a href="https://scholar.google.co.nz/citations?hl=en&view_op=list_works&gmla=AJsN-F7ua45BO8i1DHccKCUj7VPZqMzoZxfTFasDQNl2_V7GtlfsDKuC70DN5-8fIn8VadBbpoEfmI9BTw5FwKbSHXWa_N0IKA&user=NqnK14EAAAAJ" target="_blank" class="icon circle fa-google-plus"><span class="label">Google</span></a></li>
-						<li><a href="https://github.com/tommlogan" target="_blank" class="icon circle fa-github"><span class="label">Github</span></a></li>
-						<!-- <li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-					</ul>
-
-					<ul class="copyright">
-						<li>Copyright &copy; 2017 Adapting Cities - All Rights Reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/jquery.dropotron.min.js"></script>
-			<script src="../assets/js/jquery.scrolly.min.js"></script>
-			<script src="../assets/js/jquery.scrollgress.min.js"></script>
-			<script src="../assets/js/skel.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../assets/js/main.js"></script>
-
-	</body>
-</html>
