@@ -1,2 +1,5 @@
 extra/
 _site
+
+# extensions
+*.ini
