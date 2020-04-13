@@ -8,4 +8,4 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 
-Redirect 301 /apps/evaluate-proximity http://http://evaluate-proximity.herokuapp.com/
+Redirect 301 /apps/evaluate-proximity.html http://http://evaluate-proximity.herokuapp.com/
