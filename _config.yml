@@ -14,19 +14,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Urutau
-email: tom.logan@canterbury.ac.nz
+title: Urutau - Adapt
+email: tom@urutau.co.nz
 description: >- # this means to ignore newlines until "baseurl:"
-  Bridging research and practice to adapt our cities for a changing climate
+  Consulting for communities to build resilience for climate change adaptation and mitigation.
 baseurl: "" # the subpath of your site, e.g. /blog
-url:  https://urutaucentre.org # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: TomMLogan
-github_username:  tommlogan
-linkedin_username: tom-logan-4b262a5b/
-scholar_username: NqnK14EAAAAJ
-
+url:  https://urutau.co.nz # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: TomMLogan
+github_username:  urutau-nz
+# linkedin_username: tom-logan-4b262a5b/
+# scholar_username: NqnK14EAAAAJ
+image: http://reckoningrisk.com/assets/img/logo_social.jpg
 # Build settings
 # source: /_jekyll
 # destination: /blogs
 markdown: kramdown
 highlighter: rouge
+exclude:
+  - '*.ini'
+plugins:
+  - jekyll-sitemap

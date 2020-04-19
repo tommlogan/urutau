@@ -65,6 +65,7 @@
 	.container {
 		margin-left: auto;
 		margin-right: auto;
+		padding-top: 5em;
 	}
 
 	.container.\31 25\25 {
@@ -1669,6 +1670,7 @@
 
 	header.major {
 		padding-bottom: 2em;
+		padding-top: 2em;
 	}
 
 	header.special {
@@ -1803,7 +1805,7 @@
 
 	}
 
-		.image:before {
+		/* .image:before {
 			background: url("img/overlay.png");
 			content: '';
 			height: 100%;
@@ -1811,7 +1813,7 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
+		} */
 
 		.image.fit {
 			display: block;
@@ -1825,6 +1827,7 @@
 		.image.featured {
 			display: block;
 			margin: auto;
+			position: bottom;
 		}
 
 			.image.featured img {
@@ -2425,10 +2428,10 @@
 	}
 
 	#banner {
-		background-attachment:   fixed;
-		background-color: #799a19;
-		background-image:   url("../../img/banner.jpg");
-		background-position:top center;
+		background-attachment:   scroll;
+		/* background-color: #799a19; */
+		background-image:   url("/img/banner.jpg");
+		background-position: bottom;
 		background-repeat:   no-repeat;
 		background-size:   cover;
 		color: #fff;
@@ -2446,7 +2449,7 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(121, 154, 25, 0.4);
+			/* background: rgba(121, 154, 25, 0.4); */
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2517,10 +2520,10 @@
 /* CTA */
 
 	#cta {
-		background-attachment: fixed;
-		background-color: #799a19;
-		background-image: url("../../img/banner.jpg");
-		background-position:  bottom center;
+		/* background-attachment: fixed; */
+		/* background-color: #799a19; */
+		background-image: url("/img/footer.jpg");
+		background-position:  top center;
 		background-repeat: no-repeat;
 		background-size:  cover;
 		color: #fff;
@@ -2727,6 +2730,14 @@
 		display: none;
 	}
 
+	@media screen and (min-width: 839px) {
+
+	  /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+		#mobile-logo img {
+			display: none;
+		}
+	}
+
 	@media screen and (max-width: 840px) {
 
 		/* Basic */
@@ -2799,6 +2810,17 @@
 
 			#header {
 				display: none;
+			}
+
+			#mobile-logo {
+		    position: relative;
+				background: transparent;
+			}
+
+			#mobile-logo img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 		/* Banner */
@@ -3232,7 +3254,7 @@ background-color: white;
 color: #9F9F9F;
 /*-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .00);
 box-shadow: 0 1px 0 rgba(0, 0, 0, .00);*/
-width: 100px;
+width: 130px;
 padding: 4px;
 }
 

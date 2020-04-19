@@ -3,3 +3,6 @@ _site
 
 # extensions
 *.ini
+
+Gem*
+.jekyll-cache
