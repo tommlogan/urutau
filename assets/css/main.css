@@ -2733,7 +2733,7 @@
 	@media screen and (min-width: 839px) {
 
 	  /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
-		#mobile-logo img {
+		#mobile-logo {
 			display: none;
 		}
 	}
@@ -2813,14 +2813,10 @@
 			}
 
 			#mobile-logo {
-		    position: relative;
+		    float: right;
 				background: transparent;
-			}
+				padding: 1em 1em;
 
-			#mobile-logo img {
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
 			}
 
 		/* Banner */
@@ -3066,7 +3062,7 @@
 			}
 
 			p {
-				text-align: justify;
+				/* text-align: justify; */
 			}
 
 		/* Section/Article */

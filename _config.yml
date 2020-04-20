@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Urutau - Adapt
+title: Urutau - Resilience consultants
 email: tom@urutau.co.nz
 description: >- # this means to ignore newlines until "baseurl:"
   Consulting for communities to build resilience for climate change adaptation and mitigation.
@@ -24,7 +24,7 @@ url:  https://urutau.co.nz # the base hostname & protocol for your site, e.g. ht
 github_username:  urutau-nz
 # linkedin_username: tom-logan-4b262a5b/
 # scholar_username: NqnK14EAAAAJ
-image: http://reckoningrisk.com/assets/img/logo_social.jpg
+image: img/og.jpg
 # Build settings
 # source: /_jekyll
 # destination: /blogs
