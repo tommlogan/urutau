@@ -19,12 +19,14 @@ email: tom@urutau.co.nz
 description: >- # this means to ignore newlines until "baseurl:"
   Consulting for communities to build resilience for climate change adaptation and mitigation.
 baseurl: "" # the subpath of your site, e.g. /blog
-url:  https://urutau.co.nz # the base hostname & protocol for your site, e.g. http://example.com
+url:  https://www.urutau.co.nz # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: TomMLogan
 github_username:  urutau-nz
 # linkedin_username: tom-logan-4b262a5b/
 # scholar_username: NqnK14EAAAAJ
 image: img/og.jpg
+image-height: 630px
+image-width: 1200px
 # Build settings
 # source: /_jekyll
 # destination: /blogs
