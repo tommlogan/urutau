@@ -28,6 +28,8 @@
 
 	ol, ul {
 		/*list-style: none;*/
+		list-style-position: inside;
+		margin: 0 0 0 0;
 	}
 
 	blockquote, q {
